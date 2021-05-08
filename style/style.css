@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.app {
+    width: 100%;
+    height :100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin  : 50px 0 5px;
+}
+
+
+.pads {
+    display: flex;
+    width: 100%;
+}
+.pads > div {
+    min-width: 100px;
+    height: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background-color: rgba(226, 123, 39, 0.87);
+}
+.pad2{
+    background-color: rgba(203, 206, 19, 0.87);
+}
+.pad3 {
+    background-color: rgba(56, 211, 9, 0.87);
+}
+.pad4 {
+    background-color: rgba(12, 97, 167, 0.87);
+}
+.pad5 {
+    background-color: rgba(238, 56, 111, 0.699);
+}
+.pad6 {
+    background-color: rgba(126, 39, 226, 0.87);
+}
