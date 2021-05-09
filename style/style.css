@@ -38,39 +38,46 @@ header h1 {
 }
 
 .pad1 {
-    background-color: rgba(226, 123, 39, 0.87);
+    background-color: rgb(226, 123, 39);
 }
 .pad2{
-    background-color: rgba(203, 206, 19, 0.87);
+    background-color: rgb(203, 206, 19);
 }
 .pad3 {
-    background-color: rgba(56, 211, 9, 0.87);
+    background-color: rgb(56, 211, 9);
 }
 .pad4 {
-    background-color: rgba(12, 97, 167, 0.87);
+    background-color: rgb(12, 97, 167);
 }
 .pad5 {
-    background-color: rgba(238, 56, 111, 0.699);
+    background-color: rgb(238, 56, 111);
 }
 .pad6 {
-    background-color: rgba(126, 39, 226, 0.87);
+    background-color: rgb(126, 39, 226);
 }
 
-.pad1:hover {
-    background-color: rgba(226, 123, 39, 0.979);
+
+.visual div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    z-index: -1;
 }
-.pad2:hover{
-    background-color: rgba(203, 206, 19, 0.979);
-}
-.pad3:hover {
-    background-color: rgba(56, 211, 9, 0.979);
-}
-.pad4:hover {
-    background-color: rgba(12, 97, 167, 0.979);
-}
-.pad5:hover {
-    background-color: rgba(238, 56, 111, 0.979);
-}
-.pad6:hover {
-    background-color: rgba(126, 39, 226, 0.979);
+
+@keyframes jump {
+    0%{
+        bottom: 0;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0;
+        left: 80%;
+    }
 }
