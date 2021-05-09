@@ -34,6 +34,7 @@ header h1 {
     min-width: 100px;
     height: 100px;
     flex: 1;
+    cursor: pointer;
 }
 
 .pad1 {
@@ -53,4 +54,23 @@ header h1 {
 }
 .pad6 {
     background-color: rgba(126, 39, 226, 0.87);
+}
+
+.pad1:hover {
+    background-color: rgba(226, 123, 39, 0.979);
+}
+.pad2:hover{
+    background-color: rgba(203, 206, 19, 0.979);
+}
+.pad3:hover {
+    background-color: rgba(56, 211, 9, 0.979);
+}
+.pad4:hover {
+    background-color: rgba(12, 97, 167, 0.979);
+}
+.pad5:hover {
+    background-color: rgba(238, 56, 111, 0.979);
+}
+.pad6:hover {
+    background-color: rgba(126, 39, 226, 0.979);
 }
